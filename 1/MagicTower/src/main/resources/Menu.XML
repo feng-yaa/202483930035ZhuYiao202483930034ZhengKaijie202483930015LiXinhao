@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu title="Menu" isFunction="No">
+	<menu1 title="Restart or Quit" isFunction="No">
+		<menu2 title="Restart" isFunction="restartGame"></menu2>
+		<menu2 title="Quit" isFunction="quitGame"></menu2>
+	</menu1>
+	<menu1 title="Save or Load" isFunction="No">
+		<menu2 title="Save" isFunction="saveGame"></menu2>
+		<menu2 title="Load" isFunction="loadGame"></menu2>
+	</menu1>
+	<menu1 title="Change the Game Mode" isFunction="No">
+		<menu2 title="Change to the STEEL SOUL Mode" isFunction="SSM"></menu2>
+		<menu2 title="Change to the Normal Mode" isFunction="NM"></menu2>
+		<menu2 title="PS. When you are in STEEL SOUL mode,everyturn you will be in a specific status 'bleeding',leading your hero's health declined.When you get a poison, you will clear the 'bleeding' for 5 turns." isFunction="NM"></menu2>
+	</menu1>
+</menu>
